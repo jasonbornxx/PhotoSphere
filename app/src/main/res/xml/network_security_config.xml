@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">streetviewpixels-pa.googleapis.com</domain>
+        <domain includeSubdomains="true">maps.googleapis.com</domain>
+        <domain includeSubdomains="true">www.google.com</domain>
+        <domain includeSubdomains="true">maps.app.goo.gl</domain>
+        <domain includeSubdomains="true">goo.gl</domain>
+        <domain includeSubdomains="true">earth.google.com</domain>
+    </domain-config>
+</network-security-config>
